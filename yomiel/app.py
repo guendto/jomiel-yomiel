@@ -46,8 +46,8 @@ class App(KoreApp):
             '--output-format',
             help=
             'Print messages in the specified data serialization format',
-            choices=['raw', 'json', 'yaml'],
-            metavar='[raw|json|yaml]',
+            choices=['raw', 'json', 'yaml', 'terse'],
+            metavar='[raw|json|yaml|terse]',
             default='raw')
 
         def jomiel_group():
@@ -143,6 +143,28 @@ class App(KoreApp):
 
         ssh_group()
 
+        def dump_terse_response(stdout, media_response):
+            """Dump a terse response
+
+            Args:
+                stdout (obj): the std output stream to dump the object to
+                media_response (obj): the media response object to dump
+
+            """
+            stdout.write('---\ntitle: ' + media_response.title + '\n')
+            stdout.write('quality:\n')
+
+            def get_terse_quality_string():
+                """Return terse string for a stream quality."""
+                return '  profile: {}\n    width: {}\n    height: {}\n'.format(
+                    stream_quality.profile, stream_quality.width,
+                    stream_quality.height)
+
+            for stream in media_response.stream:
+                stream_quality = stream.quality
+                quality_string = get_terse_quality_string()
+                stdout.write(quality_string)
+
         def dump_metadata(response):
             """Print the metadata to standard output."""
             def has_stream():
@@ -173,6 +195,8 @@ class App(KoreApp):
                 elif 'yaml' in opts.output_format:
                     from yomiel.comm import to_yaml
                     to_yaml(response.media, stream=stdout)
+                elif 'terse' in opts.output_format:
+                    dump_terse_response(stdout, response.media)
                 else:
                     handle_error(
                         'unexpected --output-format value (%s)' %
@@ -247,6 +271,7 @@ class App(KoreApp):
             exit_normal()
 
         opts = super(App, self).parse_opts(parser)
+        lg().disabled = 'terse' in opts.output_format
 
         try:
             from yomiel.subsys import init
@@ -259,6 +284,7 @@ class App(KoreApp):
 
 def handle_error(msg):
     """Handle an error."""
+    lg().disabled = False
     lg().error(msg)
     from yomiel.kore.app import exit_error
     exit_error()
