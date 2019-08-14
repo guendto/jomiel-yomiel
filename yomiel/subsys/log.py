@@ -24,9 +24,9 @@ def init():
                logger_file)
 
     if opts.logger_idents:
-        print(''.join('%s' % [ident for ident in logger_idents]))
-        from yomiel.kore.app import exit_normal
-        exit_normal()
+        from yomiel.kore.app import dump_logger_identities
+        dump_logger_identities(logger_idents,
+                               opts.logger_idents_verbose)
 
     lg().info('log subsystem initiated')
 
