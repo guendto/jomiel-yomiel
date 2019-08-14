@@ -42,6 +42,15 @@ $ python setup.py build_py  # generate the protobuf message bindings
 $ python yomiel <uri ...>   # inquiry meta data for the given URI
 ```
 
+## HOWTO
+
+### Authentication and encryption using CURVE / SSH
+
+See the corresponding [jomiel][1] entries:
+
+- [HOWTO: Authentication and encryption using CURVE][10]
+- [HOWTO: Authentication and encryption using SSH][11]
+
 ## Development notes
 
 ### Subprojects
@@ -62,6 +71,8 @@ the subdirectories:
 [2]: https://github.com/guendto/jomiel-comm/
 [3]: https://github.com/guendto/jomiel-proto/
 [4]: https://github.com/guendto/jomiel-kore/
+[10]: https://github.com/guendto/jomiel/#authentication-and-encryption-using-curve
+[11]: https://github.com/guendto/jomiel/#authentication-and-encryption-using-ssh
 [22]: https://www.python.org/about/gettingstarted/
 [23]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 [24]: https://pypi.org/
