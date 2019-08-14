@@ -13,15 +13,21 @@
 
 def init():
     """Initiates the logging subsystem."""
-
+    from yomiel.cache import logger_paths, opts  # pylint: disable=E0611
     from yomiel.kore.log import log_init
-    from yomiel.cache import logger_paths  # pylint: disable=E0611
 
-    logger_file = log_init(logger_paths)
+    (logger_file, logger_idents) = log_init(logger_paths)
 
     from yomiel import lg
+
     lg().debug('subsys/log: configuration file loaded from \'%s\'',
                logger_file)
+
+    if opts.logger_idents:
+        print(''.join('%s' % [ident for ident in logger_idents]))
+        from yomiel.kore.app import exit_normal
+        exit_normal()
+
     lg().info('log subsystem initiated')
 
 
