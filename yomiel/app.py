@@ -299,7 +299,7 @@ def read_input(nargs):
     """
     from yomiel.kore.input import read_input as parse
     try:
-        input_uri = parse(check_uri=False, nargs=nargs)
+        input_uri = parse(validate_uri=True, nargs=nargs)
         if not input_uri:
             handle_error('an input URI was not given')
     except KeyboardInterrupt:
