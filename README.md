@@ -8,6 +8,18 @@
 - Support for different output formats (raw/json/yaml)
 - Highly configurable
 
+## Screencast
+
+[![yomiel screencast](media/screencast-scaled.png)](media/screencast.png)
+
+(Click to enlarge the image)
+
+**Description**
+
+1. Start [jomiel][1]
+2. Send an inquiry using yomiel
+    - Use different output filters (json, terse)
+
 ## License
 
 `yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
