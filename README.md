@@ -12,8 +12,6 @@
 
 [![yomiel screencast](media/screencast-scaled.png)](media/screencast.png)
 
-(Click to enlarge the image)
-
 **Description**
 
 1. Start [jomiel][1]
