@@ -34,8 +34,8 @@ git repository.
 ### PyPI
 
 ```shell
-$ pip install yomiel        # for the latest release
-$ yomiel <uri ...>          # inquiry meta data for the given URI
+pip install yomiel        # for the latest release
+yomiel <uri ...>          # inquiry meta data for the given URI
 ```
 
 ### git repository
@@ -45,11 +45,11 @@ Make sure you have installed the *protobuffer library* and the
 `libprotobuf*` and the `protobuf-compiler` packages.
 
 ```shell
-$ git clone https://github.com/guendto/jomiel-yomiel.git
-$ cd jomiel-yomiel
-$ pip install -r ./requirements.txt
-$ python setup.py build_py  # generate the protobuf message bindings
-$ python yomiel <uri ...>   # inquiry meta data for the given URI
+git clone https://github.com/guendto/jomiel-yomiel.git
+cd jomiel-yomiel
+pip install -r ./requirements.txt
+python setup.py build_py  # generate the protobuf message bindings
+python yomiel <uri ...>   # inquiry meta data for the given URI
 ```
 
 ## HOWTO
