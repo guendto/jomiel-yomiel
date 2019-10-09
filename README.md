@@ -45,10 +45,7 @@ python yomiel <uri ...>   # Inquiry meta data for the specified URI
 
 ### Authentication and encryption using CURVE / SSH
 
-See the corresponding [jomiel][1] entries:
-
-- [HOWTO: Authentication and encryption using CURVE][10]
-- [HOWTO: Authentication and encryption using SSH][11]
+See the [HOWTO][10] section of [jomiel][1] for the instructions.
 
 ## Development notes
 
@@ -70,8 +67,7 @@ the subdirectories:
 [2]: https://github.com/guendto/jomiel-comm/
 [3]: https://github.com/guendto/jomiel-proto/
 [4]: https://github.com/guendto/jomiel-kore/
-[10]: https://github.com/guendto/jomiel/#authentication-and-encryption-using-curve
-[11]: https://github.com/guendto/jomiel/#authentication-and-encryption-using-ssh
+[10]: https://github.com/guendto/jomiel/#howto
 [22]: https://www.python.org/about/gettingstarted/
 [23]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
 [24]: https://pypi.org/
