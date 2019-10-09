@@ -8,15 +8,9 @@
 - Support for different output formats (raw/json/yaml)
 - Highly configurable
 
-## Screencast
+## Example
 
-[![yomiel screencast](media/screencast-scaled.png)](media/screencast.png)
-
-**Description**
-
-1. Start [jomiel][1]
-2. Send an inquiry using yomiel
-    - Use different output filters (json, terse)
+![Example (yomiel)](./docs/examples/yomiel-framed.svg)
 
 ## License
 
