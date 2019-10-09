@@ -2,15 +2,13 @@
 
 `yomiel` is the pretty printer for [jomiel][1] messages.
 
+![Example (yomiel)](./docs/examples/yomiel-framed.svg)
+
 ## Features
 
 - Support for authentication and encryption (CURVE and SSH)
 - Support for different output formats (raw/json/yaml)
 - Highly configurable
-
-## Example
-
-![Example (yomiel)](./docs/examples/yomiel-framed.svg)
 
 ## License
 
