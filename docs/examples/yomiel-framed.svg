@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 687 489" width="687" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="80" rows="24"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 12076ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+11.163%{transform:translateY(-442px)}
+11.494%{transform:translateY(-884px)}
+13.084%{transform:translateY(-1326px)}
+13.481%{transform:translateY(-1768px)}
+14.078%{transform:translateY(-2210px)}
+15.005%{transform:translateY(-2652px)}
+15.866%{transform:translateY(-3094px)}
+28.387%{transform:translateY(-3536px)}
+33.554%{transform:translateY(-3978px)}
+34.349%{transform:translateY(-4420px)}
+38.920%{transform:translateY(-4862px)}
+39.715%{transform:translateY(-5304px)}
+42.100%{transform:translateY(-5746px)}
+42.630%{transform:translateY(-6188px)}
+43.889%{transform:translateY(-6630px)}
+45.015%{transform:translateY(-7072px)}
+45.876%{transform:translateY(-7514px)}
+48.062%{transform:translateY(-7956px)}
+69.319%{transform:translateY(-8398px)}
+69.510%{transform:translateY(-8840px)}
+91.719%{transform:translateY(-9282px)}
+100.000%{transform:translateY(-9282px)}
+            }
+
+            #screen_view {
+                animation-duration: 12076ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #f8f8f2}
+            .background {fill: #272822}
+            .color0 {fill: #272822}
+            .color1 {fill: #f92672}
+            .color2 {fill: #a6e22e}
+            .color3 {fill: #f4bf75}
+            .color4 {fill: #66d9ef}
+            .color5 {fill: #ae81ff}
+            .color6 {fill: #a1efe4}
+            .color7 {fill: #f8f8f2}
+            .color8 {fill: #75715e}
+            .color9 {fill: #fd971f}
+            .color10 {fill: #383830}
+            .color11 {fill: #49483e}
+            .color12 {fill: #a59f85}
+            .color13 {fill: #f5f4f1}
+            .color14 {fill: #cc6633}
+            .color15 {fill: #f9f8f5}
+        </style>
+    </defs>
+    <rect id="terminalui" class="background" width="100%" height="100%" ry="4.5826941"/>
+    <circle cx="24" cy="23" r="7" class="color1"/>
+    <circle cx="44" cy="23" r="7" class="color3"/>
+    <circle cx="64" cy="23" r="7" class="color2"/>
+    <svg id="screen" width="640" height="408" x="23" y="50" viewBox="0 0 640 408" preserveAspectRatio="xMidYMin slice">
+        <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="8" class="foreground"> </text><text x="48" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="16" class="foreground"> y</text><text x="56" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="24" class="foreground"> yo</text><text x="64" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="32" class="foreground"> yom</text><text x="72" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="40" class="foreground"> yomi</text><text x="80" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="48" class="foreground"> yomie</text><text x="88" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="56" class="foreground"> yomiel</text><text x="96" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="64" class="foreground"> yomiel </text><text x="104" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="408" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo</text><text x="448" textLength="8" class="background"> </text></g><g id="g10"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="416" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo </text><text x="456" textLength="8" class="background"> </text></g><g id="g11"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="424" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -</text><text x="464" textLength="8" class="background"> </text></g><g id="g12"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="432" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o</text><text x="472" textLength="8" class="background"> </text></g><g id="g13"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="440" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o </text><text x="480" textLength="8" class="background"> </text></g><g id="g14"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="448" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o t</text><text x="488" textLength="8" class="background"> </text></g><g id="g15"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="456" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o te</text><text x="496" textLength="8" class="background"> </text></g><g id="g16"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="464" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o ter</text><text x="504" textLength="8" class="background"> </text></g><g id="g17"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="472" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o ters</text><text x="512" textLength="8" class="background"> </text></g><g id="g18"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="480" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o terse</text><text x="520" textLength="8" class="background"> </text></g><g id="g19"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="480" class="foreground"> yomiel https://www.youtube.com/watch?v=PRdcZSuCpNo -o terse</text></g><g id="g20"><text x="0" textLength="8" class="background"> </text></g><g id="g21"><text x="0" textLength="24" class="foreground">---</text></g><g id="g22"><text x="0" textLength="320" class="foreground">title: 7 Days of Artificial Intelligence</text></g><g id="g23"><text x="0" textLength="64" class="foreground">quality:</text></g><g id="g24"><text x="0" textLength="104" class="foreground">  profile: 22</text></g><g id="g25"><text x="0" textLength="120" class="foreground">    width: 1280</text></g><g id="g26"><text x="0" textLength="120" class="foreground">    height: 720</text></g><g id="g27"><text x="0" textLength="104" class="foreground">  profile: 43</text></g><g id="g28"><text x="0" textLength="112" class="foreground">    width: 640</text></g><g id="g29"><text x="0" textLength="120" class="foreground">    height: 360</text></g><g id="g30"><text x="0" textLength="104" class="foreground">  profile: 18</text></g><g id="g31"><text x="0" textLength="8" font-weight="bold" class="color8">~</text><text x="8" textLength="8" class="foreground"> </text><text x="16" textLength="16" font-weight="bold" class="color8">//</text><text x="32" textLength="8" class="color5">&gt;</text><text x="40" textLength="40" class="foreground"> exit</text></g></defs><g id="screen_view"><g><rect x="48" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="56" y="442" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="442"/></g><g><rect x="64" y="884" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="884"/></g><g><rect x="72" y="1326" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1326"/></g><g><rect x="80" y="1768" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="1768"/></g><g><rect x="88" y="2210" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="2210"/></g><g><rect x="96" y="2652" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="2652"/></g><g><rect x="104" y="3094" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="3094"/></g><g><rect x="448" y="3536" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="3536"/></g><g><rect x="456" y="3978" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="3978"/></g><g><rect x="464" y="4420" width="8" height="17" class="foreground"/><use xlink:href="#g11" y="4420"/></g><g><rect x="472" y="4862" width="8" height="17" class="foreground"/><use xlink:href="#g12" y="4862"/></g><g><rect x="480" y="5304" width="8" height="17" class="foreground"/><use xlink:href="#g13" y="5304"/></g><g><rect x="488" y="5746" width="8" height="17" class="foreground"/><use xlink:href="#g14" y="5746"/></g><g><rect x="496" y="6188" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="6188"/></g><g><rect x="504" y="6630" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="6630"/></g><g><rect x="512" y="7072" width="8" height="17" class="foreground"/><use xlink:href="#g17" y="7072"/></g><g><rect x="520" y="7514" width="8" height="17" class="foreground"/><use xlink:href="#g18" y="7514"/></g><g><use xlink:href="#g19" y="7956"/><rect x="0" y="7973" width="8" height="17" class="foreground"/><use xlink:href="#g20" y="7973"/></g><g><use xlink:href="#g19" y="8398"/><use xlink:href="#g21" y="8415"/><use xlink:href="#g22" y="8432"/><use xlink:href="#g23" y="8449"/><use xlink:href="#g24" y="8466"/><use xlink:href="#g25" y="8483"/><use xlink:href="#g26" y="8500"/><use xlink:href="#g27" y="8517"/><use xlink:href="#g28" y="8534"/><use xlink:href="#g29" y="8551"/><use xlink:href="#g30" y="8568"/><use xlink:href="#g28" y="8585"/><use xlink:href="#g29" y="8602"/><rect x="0" y="8619" width="8" height="17" class="foreground"/><use xlink:href="#g20" y="8619"/></g><g><use xlink:href="#g19" y="8840"/><use xlink:href="#g21" y="8857"/><use xlink:href="#g22" y="8874"/><use xlink:href="#g23" y="8891"/><use xlink:href="#g24" y="8908"/><use xlink:href="#g25" y="8925"/><use xlink:href="#g26" y="8942"/><use xlink:href="#g27" y="8959"/><use xlink:href="#g28" y="8976"/><use xlink:href="#g29" y="8993"/><use xlink:href="#g30" y="9010"/><use xlink:href="#g28" y="9027"/><use xlink:href="#g29" y="9044"/><rect x="48" y="9061" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="9061"/></g><g><use xlink:href="#g19" y="9282"/><use xlink:href="#g21" y="9299"/><use xlink:href="#g22" y="9316"/><use xlink:href="#g23" y="9333"/><use xlink:href="#g24" y="9350"/><use xlink:href="#g25" y="9367"/><use xlink:href="#g26" y="9384"/><use xlink:href="#g27" y="9401"/><use xlink:href="#g28" y="9418"/><use xlink:href="#g29" y="9435"/><use xlink:href="#g30" y="9452"/><use xlink:href="#g28" y="9469"/><use xlink:href="#g29" y="9486"/><use xlink:href="#g31" y="9503"/><rect x="0" y="9520" width="8" height="17" class="foreground"/><use xlink:href="#g20" y="9520"/></g></g></svg>
+</svg>
