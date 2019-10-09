@@ -10,15 +10,10 @@
 - Support for different output formats (raw/json/yaml)
 - Highly configurable
 
-## License
+## Getting started
 
-`yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
-
-## Requirements
-
-`yomiel` is written for [Python][22] 3.5 and later.
-
-## Installation
+- **`yomiel` requires [Python 3.5+][22]**
+- **Make sure `jomiel` is running**
 
 To install `yomiel` from from [PyPI][24]:
 
@@ -38,6 +33,10 @@ pip install -r ./requirements.txt
 python setup.py build_py  # Generate the protobuf message bindings
 python yomiel <uri ...>   # Inquiry meta data for the specified URI
 ```
+
+## License
+
+`yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
 
 ## HOWTO
 
