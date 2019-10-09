@@ -44,21 +44,18 @@ See [jomiel: HOWTO][10].
 
 `yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
 
-## Development notes
+## Acknowledgements
+
+- Linted by [pylint][25], [flake8][26] and [yamllint][27]
+- Formatted by [yapf][28]
 
 ### Subprojects
 
-`yomiel` includes (as `git-subtree`) the following subprojects within
-the subdirectories:
+`yomiel` subtrees (includes) the following subprojects:
 
 - [jomiel-proto.git][3] (yomiel/comm/proto)
 - [jomiel-comm.git][2]  (yomiel/comm)
 - [jomiel-kore.git][4]  (yomiel/kore)
-
-### Acknowledgements
-
-- Linted by [pylint][25], [flake8][26] and [yamllint][27]
-- Formatted by [yapf][28]
 
 [1]: https://github.com/guendto/jomiel/
 [2]: https://github.com/guendto/jomiel-comm/
