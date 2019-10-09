@@ -22,28 +22,23 @@
 
 ## Installation
 
-You can install the latest version from either [PyPI][24] or from the
-git repository.
-
-### PyPI
+To install `yomiel` from from [PyPI][24]:
 
 ```shell
-pip install yomiel        # for the latest release
-yomiel <uri ...>          # inquiry meta data for the given URI
+pip install yomiel        # For the latest release
+yomiel <uri ...>          # Inquiry meta data for the given URI
 ```
 
-### git repository
+To run `yomiel` from the repository:
 
-Make sure you have installed the *protobuffer library* and the
-*compiler*. For example, on Debian based systems these are the
-`libprotobuf*` and the `protobuf-compiler` packages.
+- Make sure you have installed protobuf compiler first (debian:
+  protobuf-compiler)
 
 ```shell
-git clone https://github.com/guendto/jomiel-yomiel.git
-cd jomiel-yomiel
+git clone https://github.com/guendto/jomiel-yomiel.git && cd jomiel-yomiel
 pip install -r ./requirements.txt
-python setup.py build_py  # generate the protobuf message bindings
-python yomiel <uri ...>   # inquiry meta data for the given URI
+python setup.py build_py  # Generate the protobuf message bindings
+python yomiel <uri ...>   # Inquiry meta data for the specified URI
 ```
 
 ## HOWTO
