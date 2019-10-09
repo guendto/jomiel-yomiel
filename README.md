@@ -34,15 +34,15 @@ python setup.py build_py  # Generate the protobuf message bindings
 python yomiel <uri ...>   # Inquiry meta data for the specified URI
 ```
 
+## HOWTO
+
+### Authenticate and encrypt using CURVE (or SSH)
+
+See [jomiel: HOWTO][10].
+
 ## License
 
 `yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
-
-## HOWTO
-
-### Authentication and encryption using CURVE / SSH
-
-See the [HOWTO][10] section of [jomiel][1] for the instructions.
 
 ## Development notes
 
