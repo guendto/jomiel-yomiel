@@ -1,6 +1,6 @@
 # yomiel
 
-`yomiel` is the pretty printer for [jomiel][1] messages.
+`yomiel` is the pretty printer for [jomiel] messages.
 
 ![Example (yomiel)](./docs/examples/yomiel-framed.svg)
 
@@ -26,10 +26,10 @@
 
 ## Getting started
 
-- **`yomiel` requires [Python 3.5+][22]**
+- **`yomiel` requires [Python] 3.5+**
 - **Make sure `jomiel` is running**
 
-To install `yomiel` from from [PyPI][24]:
+To install `yomiel` from from [PyPI]:
 
 ```shell
 pip install yomiel        # For the latest release
@@ -52,34 +52,34 @@ python yomiel <uri ...>   # Inquiry meta data for the specified URI
 
 ### Authenticate and encrypt using CURVE (or SSH)
 
-See [jomiel: HOWTO][10].
+See (jomiel) [HOWTO].
 
 ## License
 
-`yomiel` is licensed under the [Apache License version 2.0][23] (APLv2).
+`yomiel` is licensed under the [Apache License version 2.0][APLv2].
 
 ## Acknowledgements
 
-- Linted by [pylint][25], [flake8][26] and [yamllint][27]
-- Formatted by [yapf][28]
+- Linted by [pylint], [flake8] and [yamllint]
+- Formatted by [yapf]
 
 ### Subprojects
 
 `yomiel` subtrees (includes) the following subprojects:
 
-- [jomiel-proto.git][3] (yomiel/comm/proto)
-- [jomiel-comm.git][2]  (yomiel/comm)
-- [jomiel-kore.git][4]  (yomiel/kore)
+- [jomiel-proto] (yomiel/comm/proto)
+- [jomiel-comm]  (yomiel/comm)
+- [jomiel-kore]  (yomiel/kore)
 
-[1]: https://github.com/guendto/jomiel/
-[2]: https://github.com/guendto/jomiel-comm/
-[3]: https://github.com/guendto/jomiel-proto/
-[4]: https://github.com/guendto/jomiel-kore/
-[10]: https://github.com/guendto/jomiel/#howto
-[22]: https://www.python.org/about/gettingstarted/
-[23]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
-[24]: https://pypi.org/
-[25]: https://pypi.org/project/pylint/
-[26]: https://pypi.org/project/flake8/
-[27]: https://pypi.org/project/yamllint/
-[28]: https://pypi.org/project/yapf/
+[APLv2]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+[jomiel-proto]: https://github.com/guendto/jomiel-proto/
+[Python]: https://www.python.org/about/gettingstarted/
+[jomiel-comm]: https://github.com/guendto/jomiel-comm/
+[jomiel-kore]: https://github.com/guendto/jomiel-kore/
+[HOWTO]: https://github.com/guendto/jomiel/#howto
+[yamllint]: https://pypi.org/project/yamllint/
+[jomiel]: https://github.com/guendto/jomiel/
+[pylint]: https://pypi.org/project/pylint/
+[flake8]: https://pypi.org/project/flake8/
+[yapf]: https://pypi.org/project/yapf/
+[PyPI]: https://pypi.org/
