@@ -71,7 +71,7 @@ See (jomiel) [HOWTO].
 - [jomiel-comm]  (yomiel/comm)
 - [jomiel-kore]  (yomiel/kore)
 
-[APLv2]: https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+[APLv2]: https://www.tldrlegal.com/l/apache2
 [jomiel-proto]: https://github.com/guendto/jomiel-proto/
 [Python]: https://www.python.org/about/gettingstarted/
 [jomiel-comm]: https://github.com/guendto/jomiel-comm/
