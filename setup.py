@@ -14,6 +14,9 @@
 # Enable VERSION_TIME to append "%H%M" to the version number.
 #
 
+from sys import path
+path.insert(0, '.')
+
 from setuptools import setup, find_packages
 from yomiel.kore.setup import init as setup_init
 
