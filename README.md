@@ -11,23 +11,23 @@
 * [Features](#features)
 * [Getting started](#getting-started)
 * [HOWTO](#howto)
-    * [Authenticate and encrypt using CURVE (or SSH)](#authenticate-and-encrypt-using-curve-or-ssh)
+  * [Authenticate and encrypt using CURVE (or SSH)](#authenticate-and-encrypt-using-curve-or-ssh)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
-    * [Subprojects](#subprojects)
+  * [Subprojects](#subprojects)
 
 <!-- vim-markdown-toc -->
 
 ## Features
 
-- Support for authentication and encryption (CURVE and SSH)
-- Support for different output formats (raw/json/yaml)
-- Highly configurable
+* Support for authentication and encryption (CURVE and SSH)
+* Support for different output formats (raw/json/yaml)
+* Highly configurable
 
 ## Getting started
 
-- **`yomiel` requires [Python] 3.5+**
-- **Make sure `jomiel` is running**
+* `yomiel` requires [Python] 3.5+
+* Make sure `jomiel` is running
 
 To install `yomiel` from from [PyPI]:
 
@@ -38,7 +38,7 @@ yomiel <uri ...>          # Inquiry meta data for the given URI
 
 To run `yomiel` from the repository:
 
-- Make sure you have installed protobuf compiler first (debian:
+* Make sure you have installed protobuf compiler (debian:
   protobuf-compiler)
 
 ```shell
@@ -60,18 +60,18 @@ See (jomiel) [HOWTO].
 
 ## Acknowledgements
 
-- Linted by [pylint], [flake8] and [yamllint]
-- Formatted by [yapf]
+* Linted by [pylint], [flake8], [yamllint] and [markdownlint]
+* Formatted by [yapf]
 
 ### Subprojects
 
 `yomiel` subtrees (includes) the following subprojects:
 
-- [jomiel-proto] (yomiel/comm/proto)
-- [jomiel-comm]  (yomiel/comm)
-- [jomiel-kore]  (yomiel/kore)
+* [jomiel-proto] (yomiel/comm/proto)
+* [jomiel-comm]  (yomiel/comm)
+* [jomiel-kore]  (yomiel/kore)
 
-[APLv2]: https://www.tldrlegal.com/l/apache2
+[markdownlint]: https://github.com/markdownlint/markdownlint
 [jomiel-proto]: https://github.com/guendto/jomiel-proto/
 [Python]: https://www.python.org/about/gettingstarted/
 [jomiel-comm]: https://github.com/guendto/jomiel-comm/
@@ -79,6 +79,7 @@ See (jomiel) [HOWTO].
 [HOWTO]: https://github.com/guendto/jomiel/#howto
 [yamllint]: https://pypi.org/project/yamllint/
 [jomiel]: https://github.com/guendto/jomiel/
+[APLv2]: https://www.tldrlegal.com/l/apache2
 [pylint]: https://pypi.org/project/pylint/
 [flake8]: https://pypi.org/project/flake8/
 [yapf]: https://pypi.org/project/yapf/
