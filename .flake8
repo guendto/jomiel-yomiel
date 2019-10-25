@@ -1,0 +1,15 @@
+[flake8]
+
+exclude =
+    .git/
+    yomiel/kore/
+    yomiel/comm/
+    build/
+    dist/
+    docs/
+
+per-file-ignores =
+    # module level import not at top of file
+    setup.py:E402
+    # unexpected spaces around keyword / parameter equals
+    yomiel/app.py:E251
