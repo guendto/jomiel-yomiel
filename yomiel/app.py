@@ -57,7 +57,7 @@ class App(KoreApp):
             grp.add('-r',
                     '--router-endpoint',
                     help='jomiel router endpoint address to connect to',
-                    default='tcp://localhost:5570',
+                    default='tcp://localhost:5514',
                     metavar='ADDR')
 
             grp.add(
