@@ -18,9 +18,9 @@
 #
 # The address to the jomiel router endpoint to connect to. This is used
 # for "talking to the broker of jomiel". Examples:
-#   tcp://localhost:5570
+#   tcp://localhost:5514
 #   ipc:///tmp/foo
-# router-endpoint: tcp://localhost:5570
+# router-endpoint: tcp://localhost:5514
 #
 # Maximum time in seconds that the program should allow the connection
 # to the service to take.
