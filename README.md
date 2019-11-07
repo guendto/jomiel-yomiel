@@ -60,8 +60,8 @@ See (jomiel) [HOWTO].
 
 ## Acknowledgements
 
-* Linted by [pylint], [flake8], [yamllint] and [markdownlint]
-* Formatted by [yapf]
+* Linted by [flake8], [yamllint] and [markdownlint]
+* Formatted by [black]
 
 ### Subprojects
 
@@ -80,7 +80,6 @@ See (jomiel) [HOWTO].
 [yamllint]: https://pypi.org/project/yamllint/
 [jomiel]: https://github.com/guendto/jomiel/
 [APLv2]: https://www.tldrlegal.com/l/apache2
-[pylint]: https://pypi.org/project/pylint/
 [flake8]: https://pypi.org/project/flake8/
-[yapf]: https://pypi.org/project/yapf/
+[black]: https://pypi.org/project/black/
 [PyPI]: https://pypi.org/
