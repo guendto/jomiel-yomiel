@@ -15,10 +15,12 @@ def init():
     """Initiates the application subsystems."""
 
     from yomiel.subsys import log
+
     log.init()
 
     from yomiel import lg
-    lg().info('all subsystems initiated')
+
+    lg().info("all subsystems initiated")
 
 
 # vim: set ts=4 sw=4 tw=72 expandtab:
