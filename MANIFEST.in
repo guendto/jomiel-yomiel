@@ -1,4 +1,6 @@
-include LICENSE NOTICE requirements.txt
-recursive-include yomiel/comm/proto *.proto
+include .pre-commit-config.yaml .flake8 pyproject.toml tox.ini
+include requirements.txt
+recursive-include yomiel *.proto *.md *.yaml
+recursive-include . LICENSE NOTICE
 recursive-include docs *.svg
 global-exclude *.py[co]
