@@ -14,13 +14,16 @@
 def main():
     """main"""
     from yomiel.kore.path import set_proto_path
-    set_proto_path(__file__, 'comm/proto/')
+
+    set_proto_path(__file__, "comm/proto/")
 
     from yomiel.app import App
 
-    App(module_name=__name__,
+    App(
+        module_name=__name__,
         pkg_resources_name=__name__,
-        config_module='yomiel.cache').run()
+        config_module="yomiel.cache",
+    ).run()
 
 
 def lg():  # pylint: disable=C0103
@@ -41,6 +44,7 @@ def lg():  # pylint: disable=C0103
     """
     from yomiel.cache import opts  # pylint: disable=E0611
     import logging as lg
+
     return lg.getLogger(opts.logger_ident)
 
 
