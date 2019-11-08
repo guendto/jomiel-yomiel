@@ -26,7 +26,7 @@ def main():
     ).run()
 
 
-def lg():  # pylint: disable=C0103
+def lg():
     """Returns the logger instance used to print to the logging
     subsystem to record new events.
 
@@ -42,7 +42,7 @@ def lg():  # pylint: disable=C0103
         The logger instance
 
     """
-    from yomiel.cache import opts  # pylint: disable=E0611
+    from yomiel.cache import opts
     import logging as lg
 
     return lg.getLogger(opts.logger_ident)
