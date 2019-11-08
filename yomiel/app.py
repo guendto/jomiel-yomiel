@@ -30,7 +30,7 @@ class App(KoreApp):
             "zmq": "PyZMQ",
         }
 
-    def run(self):  # pylint: disable=R0914,R0915
+    def run(self):
         """Application entry point; executes the app."""
         from configargparse import get_parser
 
