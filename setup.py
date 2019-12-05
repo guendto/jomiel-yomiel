@@ -68,12 +68,7 @@ setup(
         ],
     },
     python_requires=">=3.6",
-    install_requires=[
-        "configargparse",
-        "protobuf",
-        "pyzmq",
-        "ruamel.yaml",
-    ],
+    install_requires=read_file("requirements.in").splitlines(),
     entry_points={"console_scripts": ["yomiel=yomiel:main"]},
     cmdclass={
         "bdist_wheel": CustomCommand__bdist_wheel,
