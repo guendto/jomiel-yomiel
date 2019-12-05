@@ -26,7 +26,7 @@
 
 ## Getting started
 
-* `yomiel` requires [Python] 3.5+
+* `yomiel` requires [Python] 3.6+
 * Make sure `jomiel` is running
 
 To install `yomiel` from from [PyPI]:
