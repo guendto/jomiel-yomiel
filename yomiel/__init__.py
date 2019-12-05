@@ -19,11 +19,7 @@ def main():
 
     from yomiel.app import App
 
-    App(
-        module_name=__name__,
-        pkg_resources_name=__name__,
-        config_module="yomiel.cache",
-    ).run()
+    App(package_name=__name__, config_module="yomiel.cache",).run()
 
 
 def lg():
