@@ -21,14 +21,14 @@ class App(KoreApp):
 
     __slots__ = []
 
-    def version_long_modules(self):
-        """Return the required module (dict) for --version-long."""
-        return {
-            "configargparse": "ConfigArgParse",
-            "google.protobuf": "google.protobuf",
-            "ruamel.yaml": "ruamel.yaml",
-            "zmq": "PyZMQ",
-        }
+    def version_long_packages(self):
+        """Return the required package (list) for --version-long."""
+        return [
+            "configargparse",
+            "ruamel.yaml",
+            "protobuf",
+            "pyzmq",
+        ]
 
     def run(self):
         """Application entry point; executes the app."""
