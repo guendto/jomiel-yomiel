@@ -100,7 +100,7 @@ setup(
         for pkg in requirements
         if "python_version" in pkg
     ],
-    entry_points={"console_scripts": ["yomiel=yomiel:main"]},
+    entry_points={"console_scripts": ["yomiel=yomiel.__main__:main"]},
     cmdclass={
         "bdist_wheel": CustomCommand__bdist_wheel,
         "build_py": CustomCommand__build_py,
