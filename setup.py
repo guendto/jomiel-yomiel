@@ -44,6 +44,7 @@ from yomiel.kore.setup.cmd import CustomCommand__clean
 from yomiel.kore.setup.version import get_semantic_version
 from yomiel.kore.setup.file import read_file
 
+requirements = read_file("requirements.in").splitlines()
 
 # Tell kore.setup.cmd to use the specified semantic version string,
 # instead.
