@@ -18,7 +18,7 @@ def init():
 
     (logger_file, logger_idents) = log_init(logger_paths)
 
-    from yomiel import lg
+    from yomiel.log import lg
 
     lg().debug(
         "subsys/log: configuration file loaded from '%s'", logger_file

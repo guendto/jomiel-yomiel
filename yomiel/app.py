@@ -10,10 +10,10 @@
 #
 """TODO."""
 
-from yomiel import lg
 from yomiel.kore.app import App as KoreApp
 from yomiel.kore.app import exit_normal
 from yomiel.kore.opts import check_if_positive_integer
+from yomiel.log import lg
 
 
 class App(KoreApp):
@@ -307,15 +307,10 @@ class App(KoreApp):
         opts = super(App, self).parse_opts(parser)
         lg().disabled = "terse" in opts.output_format
 
-        try:
-            from yomiel.subsys import init
+        from yomiel.subsys import init
 
-            init()
-            main_loop()
-        except ImportError as error:
-            from yomiel.kore.error import if_proto_bindings_missing
-
-            if_proto_bindings_missing(error, lg())
+        init()
+        main_loop()
 
 
 def handle_error(msg):
