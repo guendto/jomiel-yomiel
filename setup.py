@@ -40,6 +40,7 @@ from yomiel.kore.setup.cmd import CustomCommand__build_py
 from yomiel.kore.setup.cmd import CustomCommand__clean
 
 # from yomiel.kore.setup.cmd import CustomCommand__sdist
+
 from yomiel.kore.setup.version import get_semantic_version
 from yomiel.kore.setup.file import read_file
 
@@ -83,7 +84,7 @@ setup(
     cmdclass={
         "bdist_wheel": CustomCommand__bdist_wheel,
         "build_py": CustomCommand__build_py,
-        "sdist": CustomCommand__sdist,
+        #        "sdist": CustomCommand__sdist,
         "clean": CustomCommand__clean,
     },
     classifiers=[
