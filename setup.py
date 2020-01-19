@@ -46,13 +46,15 @@ from yomiel.kore.setup.file import read_file
 
 requirements = read_file("requirements.in").splitlines()
 
-# Tell kore.setup.cmd to use the specified semantic version string,
-# instead.
+
+# kore.setup.cmd.*: use the specified version string, instead.
 #
 from os import environ as env
 
 env["USE_SEMANTIC_VERSION"] = VERSION
 
+# setup()
+#
 from setuptools import setup, find_namespace_packages
 
 setup(
