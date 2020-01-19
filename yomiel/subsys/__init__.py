@@ -18,7 +18,7 @@ def init():
 
     log.init()
 
-    from yomiel import lg
+    from yomiel.log import lg
 
     lg().info("all subsystems initiated")
 
