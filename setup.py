@@ -66,7 +66,13 @@ setup(
     long_description=read_file("README.md"),
     long_description_content_type="text/markdown",
     url=GITHUB_ADDR,
-    packages=find_packages(exclude=[]),
+    packages=find_namespace_packages(include=["yomiel.*"], exclude=[])
+    + ["yomiel"],
+    # Note how we append "yomiel" to the "packages" list after looking
+    # up the namespace packages. We do this because of the way we have
+    # structured the project. find_namepace_packages() fails to add any
+    # of the ./yomiel/*.py files.
+    #
     package_data={
         "yomiel": [
             "config/logger/yomiel.yaml",
