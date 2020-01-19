@@ -11,7 +11,8 @@
 #
 """setup.py for jomiel-yomiel."""
 
-# Enable VERSION_TIME to append "%H%M" to the version number.
+# Supported env. definitions:
+#   - VERSION_TIME to append "%H%M" to the version number
 #
 
 from sys import path
