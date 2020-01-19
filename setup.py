@@ -89,20 +89,6 @@ setup(
     # And that, is good enough for me.
     #   -- the author
     #
-    package_data={
-        "yomiel": [
-            "config/logger/yomiel.yaml",
-            "VERSION",
-            # Issue:
-            #   - The 'build' stage fails to find the generated *_pb2.py
-            #   files, even when 'build_py' target is built first
-            # Workaround:
-            #   - Force the inclusion of 'comm/proto/*.py files here so that
-            #   they are included
-            #
-            "comm/proto/*.py",
-        ],
-    },
     python_requires=">=3.6",
     install_requires=read_file("requirements.in").splitlines(),
     entry_points={"console_scripts": ["yomiel=yomiel:main"]},
