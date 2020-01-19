@@ -22,7 +22,6 @@ from sys import path
 
 path.insert(0, ".")
 
-from setuptools import setup, find_packages
 from yomiel.kore.setup import init as setup_init
 
 setup_init(  # Do this before the import lines for "cmd" below.
@@ -44,6 +43,8 @@ from yomiel.kore.setup.file import read_file
 from os import environ as env
 
 env["USE_SEMANTIC_VERSION"] = VERSION
+
+from setuptools import setup, find_namespace_packages
 
 setup(
     name="yomiel",
