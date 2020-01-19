@@ -15,6 +15,7 @@
 #   - VERSION_TIME to append "%H%M" to the version number
 #
 PACKAGE_NAME = "yomiel"
+GITHUB_ADDR = "https://github.com/guendto/jomiel-%s/" % PACKAGE_NAME
 
 from sys import path
 
@@ -35,7 +36,6 @@ from yomiel.kore.setup.cmd import CustomCommand__clean
 from yomiel.kore.setup.version import get_semantic_version
 from yomiel.kore.setup.file import read_file
 
-GITHUB_ADDR = "https://github.com/guendto/jomiel-yomiel/"
 VERSION = "0.1.0"
 
 # Tell kore.setup.cmd to use the specified semantic version string,
