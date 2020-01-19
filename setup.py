@@ -58,7 +58,7 @@ env["USE_SEMANTIC_VERSION"] = VERSION
 from setuptools import setup, find_namespace_packages
 
 setup(
-    name="yomiel",
+    name=PACKAGE_NAME,
     author="Toni Gündoğdu",
     author_email="<>",
     version=get_semantic_version(),
