@@ -11,17 +11,6 @@
 """TODO."""
 
 
-def main():
-    """main"""
-    from yomiel.kore.path import set_proto_path
-
-    set_proto_path(__file__, "comm/proto/")
-
-    from yomiel.app import App
-
-    App(package_name=__name__, config_module="yomiel.cache",).run()
-
-
 def lg():
     """Returns the logger instance used to print to the logging
     subsystem to record new events.
