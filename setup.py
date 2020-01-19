@@ -73,6 +73,22 @@ setup(
     # structured the project. find_namepace_packages() fails to add any
     # of the ./yomiel/*.py files.
     #
+    include_package_data=True,
+    # There are plenty of confusing and conflicting resources around,
+    # many of which offer different ideas on how you should use:
+    #   - include_package_data
+    #   - MANIFEST.in
+    #   - setup.py
+    #
+    # Throw the protobuf compilation into the mix and you'll begin to
+    # wonder why even bother with packaging at all.
+    #
+    # After spending far more time than anyone ever should -- for
+    # something as simple as this -- it seems that we have found
+    # ourselves a winner combo through great many trials and errors.
+    # And that, is good enough for me.
+    #   -- the author
+    #
     package_data={
         "yomiel": [
             "config/logger/yomiel.yaml",
