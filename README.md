@@ -60,8 +60,8 @@ See (jomiel) [HOWTO].
 
 ## Acknowledgements
 
-- Linted by [flake8], [yamllint] and [markdownlint]
-- Formatted by [black]
+`yomiel` uses [pre-commit] and its many hooks to lint and format the
+project files. See the .pre-commit-config.yaml file for details.
 
 ### Subprojects
 
@@ -71,15 +71,12 @@ See (jomiel) [HOWTO].
 - [jomiel-comm] found in [yomiel/comm/](yomiel/comm/)
 - [jomiel-kore] fouind in [yomiel/kore/](yomiel/kore/)
 
-[markdownlint]: https://github.com/markdownlint/markdownlint
 [jomiel-proto]: https://github.com/guendto/jomiel-proto/
 [python]: https://www.python.org/about/gettingstarted/
 [jomiel-comm]: https://github.com/guendto/jomiel-comm/
 [jomiel-kore]: https://github.com/guendto/jomiel-kore/
 [howto]: https://github.com/guendto/jomiel/#howto
-[yamllint]: https://pypi.org/project/yamllint/
 [jomiel]: https://github.com/guendto/jomiel/
 [aplv2]: https://www.tldrlegal.com/l/apache2
-[flake8]: https://pypi.org/project/flake8/
-[black]: https://pypi.org/project/black/
+[pre-commit]: https://pre-commit.com/
 [pypi]: https://pypi.org/
