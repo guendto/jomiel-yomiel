@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # jomiel-yomiel
 #
@@ -9,7 +8,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 """TODO."""
-
 from yomiel.kore.app import App as KoreApp
 from yomiel.kore.app import exit_normal
 from yomiel.kore.opts import check_if_positive_integer
@@ -37,7 +35,7 @@ class App(KoreApp):
         parser = get_parser()
 
         parser.add(
-            "uri", metavar="<uri>", nargs="*", help="the URIs to parse"
+            "uri", metavar="<uri>", nargs="*", help="the URIs to parse",
         )
 
         parser.add(
@@ -225,7 +223,7 @@ class App(KoreApp):
                 else:
                     handle_error(
                         "unexpected --output-format value (%s)"
-                        % opts.output_format
+                        % opts.output_format,
                     )
 
         def determine_auth_opts():
@@ -249,7 +247,7 @@ class App(KoreApp):
                 if not opts.ssh_server:
                     handle_error(
                         "argument --ssh-server: conflicting option "
-                        "string (None) when used with --auth-mode=ssh"
+                        "string (None) when used with --auth-mode=ssh",
                     )
 
                 from yomiel.comm.auth import ssh_opts_new
@@ -281,14 +279,14 @@ class App(KoreApp):
                 )
 
                 sck = connect(
-                    opts.router_endpoint, auth=auth_opts, logger=lg()
+                    opts.router_endpoint, auth=auth_opts, logger=lg(),
                 )
 
                 for uri in input_uri:
                     lg().info("inquire <%s>", uri)
 
                     resp = inquire(
-                        sck, uri, timeout=opts.connect_timeout
+                        sck, uri, timeout=opts.connect_timeout,
                     )
 
                     dump_metadata(resp)
@@ -296,7 +294,7 @@ class App(KoreApp):
             except KeyboardInterrupt:
                 sigint()
 
-            except IOError as msg:
+            except OSError as msg:
                 handle_error(msg)
 
             except InquireError as msg:
@@ -304,7 +302,7 @@ class App(KoreApp):
 
             exit_normal()
 
-        opts = super(App, self).parse_opts(parser)
+        opts = super().parse_opts(parser)
         lg().disabled = "terse" in opts.output_format
 
         from yomiel.subsys import init

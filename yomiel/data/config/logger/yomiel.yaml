@@ -1,8 +1,9 @@
+---
 # -*- coding: utf-8 -*-
 #
 # yomiel logger configuration file
 #
----
+
 # https://docs.python.org/3/library/logging.html
 #
 version: 1
@@ -51,8 +52,8 @@ formatters:
         format: '%(levelname)-.1s: %(message)s'
 
     debug_formatter:
-        format: '[%(pathname)s:%(funcName)s:%(lineno)d] %(levelname)s:
-                 %(message)s'
+        format: >-
+            '[%(pathname)s:%(funcName)s:%(lineno)d] %(levelname)s: %(message)s'
 
 # root logger (defaults to this)
 #

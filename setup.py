@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 #
 # jomiel-yomiel
 #
@@ -10,7 +9,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 """setup.py for jomiel-yomiel."""
-
 # Supported env. definitions:
 #   - VERSION_TIME to append "%H%M" to the version number
 #

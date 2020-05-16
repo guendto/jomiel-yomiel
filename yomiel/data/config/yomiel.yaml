@@ -1,3 +1,4 @@
+---
 # -*- coding: utf-8 -*-
 #
 # yomiel configuration file
@@ -7,12 +8,12 @@
 #   ~/.config/yomiel/yomiel.yaml
 #   ./yomiel.yaml
 #
----
+
 # [Output]
 #
 # Print messages in the specified data serialization format.
 # Possible values: [raw|json|yaml]
-# output-format: yaml
+output-format: yaml
 
 # [jomiel]
 #
