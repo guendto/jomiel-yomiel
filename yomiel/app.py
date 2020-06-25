@@ -26,6 +26,7 @@ class App(KoreApp):
             "ruamel.yaml",
             "protobuf",
             "pyzmq",
+            "ujson",
         ]
 
     def run(self):
