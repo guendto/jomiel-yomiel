@@ -4,3 +4,4 @@ importlib-resources ; python_version < '3.7'
 protobuf
 pyzmq
 ruamel.yaml
+ujson
