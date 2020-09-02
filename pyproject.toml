@@ -20,10 +20,3 @@ exclude = '''   # exclude common dirs
     )/
 )
 '''
-
-[tool.check-manifest]
-ignore = [
-    "yomiel/VERSION",
-    "yomiel.yaml",
-    ".tox*"
-]
