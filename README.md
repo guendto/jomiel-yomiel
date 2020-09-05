@@ -65,11 +65,11 @@ project files. See the .pre-commit-config.yaml file for details.
 
 ### Subprojects
 
-`yomiel` subtrees (includes) the following subprojects:
+`yomiel` has the following subtrees (see git-subtree):
 
-- [jomiel-proto] found in [yomiel/comm/proto/](yomiel/comm/proto/)
-- [jomiel-comm] found in [yomiel/comm/](yomiel/comm/)
-- [jomiel-kore] fouind in [yomiel/kore/](yomiel/kore/)
+- [src/yomiel/comm/proto/](src/yomiel/comm/proto/) of [jomiel-proto]
+- [src/yomiel/comm/](src/yomiel/comm/) of [jomiel-comm]
+- [src/yomiel/kore/](src/yomiel/kore/) of [jomiel-kore]
 
 [jomiel-proto]: https://github.com/guendto/jomiel-proto/
 [python]: https://www.python.org/about/gettingstarted/

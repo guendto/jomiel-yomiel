@@ -22,6 +22,7 @@ class App(KoreApp):
     def version_long_packages(self):
         """Return the required package (list) for --version-long."""
         return [
+            "jomiel_messages",
             "configargparse",
             "ruamel.yaml",
             "protobuf",
