@@ -2,7 +2,7 @@
 
 `yomiel` is the pretty printer for [jomiel] messages.
 
-![Example (yomiel)](./docs/examples/yomiel-framed.svg)
+![Example (yomiel)](./docs/demo.svg)
 
 ## Table of Contents
 
