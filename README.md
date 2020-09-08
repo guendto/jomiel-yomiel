@@ -38,13 +38,10 @@ yomiel <uri ...>          # Inquiry meta data for the given URI
 
 To run `yomiel` from the repository:
 
-- Make sure you have installed protobuf compiler (debian:
-  protobuf-compiler)
-
 ```shell
-git clone https://github.com/guendto/jomiel-yomiel.git && cd jomiel-yomiel
-pip install -r ./requirements.txt
-python setup.py build_py  # Generate the protobuf message bindings
+git clone https://github.com/guendto/jomiel-yomiel.git
+cd jomiel-yomiel
+pip install -e .
 python yomiel <uri ...>   # Inquiry meta data for the specified URI
 ```
 
