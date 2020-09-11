@@ -4,20 +4,6 @@
 
 ![Example (yomiel)](./docs/demo.svg)
 
-## Table of Contents
-
-<!-- vim-markdown-toc GFM -->
-
-- [Features](#features)
-- [Getting started](#getting-started)
-- [HOWTO](#howto)
-  - [Authenticate and encrypt using CURVE (or SSH)](#authenticate-and-encrypt-using-curve-or-ssh)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-  - [Subprojects](#subprojects)
-
-<!-- vim-markdown-toc -->
-
 ## Features
 
 - Support for authentication and encryption (CURVE and SSH)
