@@ -15,20 +15,18 @@
 - `yomiel` requires [Python] 3.6+
 - Make sure `jomiel` is running
 
-To install `yomiel` from from [PyPI]:
+To install from [PyPI]:
 
 ```shell
-pip install yomiel        # For the latest release
-yomiel <uri ...>          # Inquiry meta data for the given URI
+pip install yomiel
 ```
 
-To run `yomiel` from the repository:
+To run from the repository:
 
 ```shell
 git clone https://github.com/guendto/jomiel-yomiel.git
 cd jomiel-yomiel
 pip install -e .
-python yomiel <uri ...>   # Inquiry meta data for the specified URI
 ```
 
 ## HOWTO
