@@ -55,7 +55,7 @@ project files. See the .pre-commit-config.yaml file for details.
 [howto]: https://github.com/guendto/jomiel/#howto
 [jomiel]: https://github.com/guendto/jomiel/
 [aplv2]: https://www.tldrlegal.com/l/apache2
-[curve]: http://api.zeromq.org/4-0:zmq-curve
 [ssh]: https://en.wikipedia.org/wiki/Ssh
 [pre-commit]: https://pre-commit.com/
+[curve]: http://curvezmq.org/
 [pypi]: https://pypi.org/
