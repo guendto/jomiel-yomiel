@@ -6,8 +6,8 @@
 
 ## Features
 
-- Support for authentication and encryption (CURVE and SSH)
 - Support for different output formats (raw/json/yaml)
+- Authentication and encryption ([CURVE] and [SSH])
 - Highly configurable
 
 ## Getting started
@@ -55,5 +55,7 @@ project files. See the .pre-commit-config.yaml file for details.
 [howto]: https://github.com/guendto/jomiel/#howto
 [jomiel]: https://github.com/guendto/jomiel/
 [aplv2]: https://www.tldrlegal.com/l/apache2
+[curve]: http://api.zeromq.org/4-0:zmq-curve
+[ssh]: https://en.wikipedia.org/wiki/Ssh
 [pre-commit]: https://pre-commit.com/
 [pypi]: https://pypi.org/
