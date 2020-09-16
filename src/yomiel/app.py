@@ -37,7 +37,10 @@ class App(KoreApp):
         parser = get_parser()
 
         parser.add(
-            "uri", metavar="<uri>", nargs="*", help="the URIs to parse",
+            "uri",
+            metavar="<uri>",
+            nargs="*",
+            help="the URIs to parse",
         )
 
         parser.add(
@@ -281,14 +284,18 @@ class App(KoreApp):
                 )
 
                 sck = connect(
-                    opts.router_endpoint, auth=auth_opts, logger=lg(),
+                    opts.router_endpoint,
+                    auth=auth_opts,
+                    logger=lg(),
                 )
 
                 for uri in input_uri:
                     lg().info("inquire <%s>", uri)
 
                     resp = inquire(
-                        sck, uri, timeout=opts.connect_timeout,
+                        sck,
+                        uri,
+                        timeout=opts.connect_timeout,
                     )
 
                     dump_metadata(resp)
