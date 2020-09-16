@@ -20,14 +20,16 @@ def init():
     from yomiel.log import lg
 
     lg().debug(
-        "subsys/log: configuration file loaded from '%s'", logger_file,
+        "subsys/log: configuration file loaded from '%s'",
+        logger_file,
     )
 
     if opts.logger_idents:
         from yomiel.kore.app import dump_logger_identities
 
         dump_logger_identities(
-            logger_idents, opts.logger_idents_verbose,
+            logger_idents,
+            opts.logger_idents_verbose,
         )
 
     lg().info("log subsystem initiated")
