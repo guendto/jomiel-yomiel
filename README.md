@@ -1,5 +1,9 @@
 # yomiel
 
+![pypi-pyversions]
+
+[pypi-pyversions]: https://img.shields.io/pypi/pyversions/yomiel?color=%230a66dc
+
 `yomiel` is the pretty printer for [jomiel] messages.
 
 ![Example (yomiel)](./docs/demo.svg)
