@@ -2,9 +2,11 @@
 
 ![pypi-pyversions]
 ![pypi-v]
+![pypi-wheel]
 
 [pypi-pyversions]: https://img.shields.io/pypi/pyversions/yomiel?color=%230a66dc
 [pypi-v]: https://img.shields.io/pypi/v/yomiel?color=%230a66dc
+[pypi-wheel]: https://img.shields.io/pypi/wheel/yomiel?color=%230a66dc
 
 `yomiel` is the pretty printer for [jomiel] messages.
 
