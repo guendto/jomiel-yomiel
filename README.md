@@ -1,16 +1,13 @@
 # yomiel
 
-![pypi-pyversions]
-![pypi-v]
-![pypi-wheel]
-![pypi-status]
-![code-style]
+[![pypi-pyversions](https://img.shields.io/pypi/pyversions/yomiel?color=%230a66dc)][pypi]
+[![pypi-v](https://img.shields.io/pypi/v/yomiel?color=%230a66dc)][pypi]
+[![pypi-wheel](https://img.shields.io/pypi/wheel/yomiel?color=%230a66dc)][pypi]
+[![pypi-status](https://img.shields.io/pypi/status/yomiel?color=%230a66dc)][pypi]
+[![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
 
-[pypi-pyversions]: https://img.shields.io/pypi/pyversions/yomiel?color=%230a66dc
-[pypi-v]: https://img.shields.io/pypi/v/yomiel?color=%230a66dc
-[pypi-wheel]: https://img.shields.io/pypi/wheel/yomiel?color=%230a66dc
-[pypi-status]: https://img.shields.io/pypi/status/yomiel?color=%230a66dc
-[code-style]: https://img.shields.io/badge/code%20style-black-000000.svg
+[pypi]: https://pypi.org/project/yomiel
+[black]: https://pypi.org/project/black
 
 `yomiel` is the pretty printer for [jomiel] messages.
 
