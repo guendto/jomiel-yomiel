@@ -38,11 +38,7 @@ cd jomiel-yomiel
 pip install -e .
 ```
 
-## HOWTO
-
-### Authenticate and encrypt using CURVE (or SSH)
-
-See (jomiel) [HOWTO].
+Be sure to check out `jomiel` [HOWTO], also.
 
 ## License
 
@@ -61,7 +57,7 @@ project files. See the .pre-commit-config.yaml file for details.
 [python]: https://www.python.org/about/gettingstarted/
 [jomiel-comm]: https://github.com/guendto/jomiel-comm/
 [jomiel-kore]: https://github.com/guendto/jomiel-kore/
-[howto]: https://github.com/guendto/jomiel/#howto
+[howto]: https://github.com/guendto/jomiel/blob/master/docs/HOWTO.md#howto-jomiel
 [jomiel]: https://github.com/guendto/jomiel/
 [aplv2]: https://www.tldrlegal.com/l/apache2
 [ssh]: https://en.wikipedia.org/wiki/Ssh
