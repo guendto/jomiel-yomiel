@@ -51,11 +51,9 @@ project files. See the .pre-commit-config.yaml file for details.
 
 ### Subprojects (as git subtrees)
 
-- [src/yomiel/comm/](src/yomiel/comm/) of [jomiel-comm]
 - [src/yomiel/kore/](src/yomiel/kore/) of [jomiel-kore]
 
 [python]: https://www.python.org/about/gettingstarted/
-[jomiel-comm]: https://github.com/guendto/jomiel-comm/
 [jomiel-kore]: https://github.com/guendto/jomiel-kore/
 [howto]: https://github.com/guendto/jomiel/blob/master/docs/HOWTO.md#howto-jomiel
 [jomiel]: https://github.com/guendto/jomiel/
