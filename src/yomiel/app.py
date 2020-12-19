@@ -8,9 +8,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 """TODO."""
-from yomiel.kore.app import App as KoreApp
-from yomiel.kore.app import exit_normal
-from yomiel.kore.opts import check_if_positive_integer
+from jomiel_kore.app import App as KoreApp
+from jomiel_kore.app import exit_normal
+from jomiel_kore.opts import check_if_positive_integer
 from yomiel.log import lg
 
 
@@ -25,6 +25,7 @@ class App(KoreApp):
             "jomiel_messages",
             "configargparse",
             "jomiel_comm",
+            "jomiel_kore",
             "ruamel.yaml",
             "protobuf",
             "pyzmq",
@@ -329,7 +330,7 @@ def handle_error(msg):
     """Handle an error."""
     lg().disabled = False
     lg().error(msg)
-    from yomiel.kore.app import exit_error
+    from jomiel_kore.app import exit_error
 
     exit_error()
 
@@ -341,7 +342,7 @@ def read_input(nargs):
         list: containing the parsed input URIs
 
     """
-    from yomiel.kore.input import read_input as parse
+    from jomiel_kore.input import read_input as parse
 
     try:
         input_uri = parse(validate_uri=True, nargs=nargs)
