@@ -49,12 +49,7 @@ Be sure to check out `jomiel` [HOWTO], also.
 `yomiel` uses [pre-commit] and its many hooks to lint and format the
 project files. See the .pre-commit-config.yaml file for details.
 
-### Subprojects (as git subtrees)
-
-- [src/yomiel/kore/](src/yomiel/kore/) of [jomiel-kore]
-
 [python]: https://www.python.org/about/gettingstarted/
-[jomiel-kore]: https://github.com/guendto/jomiel-kore/
 [howto]: https://github.com/guendto/jomiel/blob/master/docs/HOWTO.md#howto-jomiel
 [jomiel]: https://github.com/guendto/jomiel/
 [aplv2]: https://www.tldrlegal.com/l/apache2
