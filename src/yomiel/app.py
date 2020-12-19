@@ -25,6 +25,7 @@ class App(KoreApp):
             "jomiel_messages",
             "configargparse",
             "jomiel_comm",
+            "jomiel_kore",
             "ruamel.yaml",
             "protobuf",
             "pyzmq",
