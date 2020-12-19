@@ -213,7 +213,7 @@ class App(KoreApp):
                 stdout.write(str(response.media))
             else:
                 if "json" in opts.output_format:
-                    from yomiel.comm import to_json
+                    from jomiel_comm.formatter import to_json
 
                     to_json(
                         response.media,
@@ -221,7 +221,7 @@ class App(KoreApp):
                         stream=stdout,
                     )
                 elif "yaml" in opts.output_format:
-                    from yomiel.comm import to_yaml
+                    from jomiel_comm.formatter import to_yaml
 
                     to_yaml(response.media, stream=stdout)
                 elif "terse" in opts.output_format:
@@ -234,12 +234,12 @@ class App(KoreApp):
 
         def determine_auth_opts():
             """Determine whether auth should be used."""
-            from yomiel.comm.auth import auth_opts_new
+            from jomiel_comm.auth import auth_opts_new
 
             rval = None
 
             if "curve" in opts.auth_mode:
-                from yomiel.comm.auth import curve_opts_new
+                from jomiel_comm.auth import curve_opts_new
 
                 curve_opts = curve_opts_new(
                     opts.curve_server_public_key_file,
@@ -256,7 +256,7 @@ class App(KoreApp):
                         "string (None) when used with --auth-mode=ssh",
                     )
 
-                from yomiel.comm.auth import ssh_opts_new
+                from jomiel_comm.auth import ssh_opts_new
 
                 ssh_opts = ssh_opts_new(
                     opts.ssh_server,
@@ -275,7 +275,11 @@ class App(KoreApp):
             input_uri = read_input(opts.uri)
             auth_opts = determine_auth_opts()
 
-            from yomiel.comm import connect, inquire, InquireError
+            from jomiel_comm.inquiry import (
+                connect,
+                inquire,
+                InquireError,
+            )
 
             try:
                 lg().info(
