@@ -2,7 +2,7 @@
 # jomiel-yomiel
 #
 # Copyright
-#  2019 Toni Gündoğdu
+#  2019-2020 Toni Gündoğdu
 #
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -24,6 +24,7 @@ class App(KoreApp):
         return [
             "jomiel_messages",
             "configargparse",
+            "jomiel_comm",
             "ruamel.yaml",
             "protobuf",
             "pyzmq",
