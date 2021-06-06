@@ -342,10 +342,10 @@ def read_input(nargs):
         list: containing the parsed input URIs
 
     """
-    from jomiel_kore.input import read_input as parse
+    from jomiel_kore.input import process_input
 
     try:
-        input_uri = parse(validate_uri=True, nargs=nargs)
+        input_uri = process_input(nargs=nargs)
         if not input_uri:
             handle_error("an input URI was not given")
     except KeyboardInterrupt:
