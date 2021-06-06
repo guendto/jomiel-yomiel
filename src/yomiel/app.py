@@ -202,9 +202,9 @@ class App(KoreApp):
                 return response.media.image
 
             if has_stream():
-                lg().info("has video")
+                lg().debug("has video")
             elif has_image():
-                lg().info("has image")
+                lg().debug("has image")
             else:
                 handle_error("unexpected response (empty media lists)")
 
