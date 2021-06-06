@@ -40,6 +40,81 @@ pip install -e .
 
 Be sure to check out `jomiel` [HOWTO], also.
 
+## Usage
+
+```text
+usage: yomiel [-h] [--version] [-v] [--config-file FILE] [-D] [-E]
+              [--logger-config FILE] [-L] [--logger-idents-verbose] [-l IDENT]
+              [-o [raw|json|yaml|terse]] [-r ADDR] [-t TIME] [-m]
+              [--auth-mode [none|curve|ssh]]
+              [--curve-server-public-key-file FILE]
+              [--curve-client-key-file FILE] [--ssh-server user@server:port]
+              [--ssh-key-file FILE] [--ssh-password PASSWD]
+              [--ssh-timeout TIME] [--ssh-paramiko]
+              [<uri> ...]
+
+positional arguments:
+  <uri>                 the URIs to parse (default: None)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  -v, --version-long    show version information about program's environment
+                        and exit (default: False)
+  --config-file FILE    Read configuration from the specified file (default:
+                        None)
+  -D, --print-config    Show the configuration values and exit (default:
+                        False)
+  -E, --report-config   Report keys, values and where they were set (default:
+                        False)
+  -o [raw|json|yaml|terse], --output-format [raw|json|yaml|terse]
+                        Print messages in the specified data serialization
+                        format (default: raw)
+
+logger:
+  --logger-config FILE  Logger configuration file to read (default: None)
+  -L, --logger-idents   Print logger identities and exit (default: False)
+  --logger-idents-verbose
+                        Print logger identities in detail, use together with
+                        --logger-idents (default: False)
+  -l IDENT, --logger-ident IDENT
+                        Use the logger identity (default: default)
+
+jomiel:
+  -r ADDR, --router-endpoint ADDR
+                        jomiel router endpoint address to connect to (default:
+                        tcp://localhost:5514)
+  -t TIME, --connect-timeout TIME
+                        Maximum time in seconds that the program should allow
+                        the connection to the service to take (default: 60)
+
+debug:
+  -m, --debug-minify-json
+                        Minify JSON messages in the logger (default: False)
+
+auth:
+  --auth-mode [none|curve|ssh]
+                        Select authentication mode (default: none)
+
+auth: curve:
+  --curve-server-public-key-file FILE
+                        Public CURVE certificate key file to use for
+                        connecting to jomiel (default: .curve/server.key)
+  --curve-client-key-file FILE
+                        Secret client CURVE key file to use for connecting to
+                        jomiel (default: .curve/client.key_secret)
+
+auth: ssh:
+  --ssh-server user@server:port
+                        SSH server to connect to (default: None)
+  --ssh-key-file FILE   Path to the key file to use (default: None)
+  --ssh-password PASSWD
+                        Password to the SSH server (default: None)
+  --ssh-timeout TIME    Time (in seconds) after which no activity will result
+                        in the tunnel closing (default: 60)
+  --ssh-paramiko        Use paramiko instead of pexpect (default: False)
+```
+
 ## License
 
 `yomiel` is licensed under the [Apache License version 2.0][aplv2].
