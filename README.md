@@ -9,22 +9,24 @@
 [pypi]: https://pypi.org/project/yomiel
 [black]: https://pypi.org/project/black
 
-`yomiel` is the pretty printer for [jomiel] messages.
+The pretty printer for [jomiel] messages.
 
 ![Example (yomiel)](./docs/demo.svg)
 
 ## Features
 
-- Support for different output formats (raw/json/yaml)
-- Authentication and encryption ([CURVE] and [SSH])
-- Highly configurable
+- **Secure**. It can authenticate and encrypt connections with [jomiel]
+  by using [CURVE] and [SSH].
 
-## Getting started
+- **Flexible.** It prints in different output formats (raw/json/yaml).
 
-- `yomiel` requires [Python] 3.6+
-- Make sure `jomiel` is running
+- **Configurable**. Many of the options are configurable.
 
-To install from [PyPI]:
+[jomiel]: https://github.com/guendto/jomiel/
+[curve]: http://curvezmq.org/
+[ssh]: https://en.wikipedia.org/wiki/ssh
+
+## Installation
 
 ```shell
 pip install yomiel
@@ -45,6 +47,8 @@ pip install git+https://github.com/guendto/jomiel-yomiel
 ```
 
 Be sure to check out `jomiel` [HOWTO], also.
+
+[howto]: https://github.com/guendto/jomiel/blob/master/docs/HOWTO.md#howto-jomiel
 
 ## Usage
 
@@ -125,16 +129,12 @@ auth: ssh:
 
 `yomiel` is licensed under the [Apache License version 2.0][aplv2].
 
+[aplv2]: https://www.tldrlegal.com/l/apache2
+
 ## Acknowledgements
 
-`yomiel` uses [pre-commit] and its many hooks to lint and format the
-project files. See the .pre-commit-config.yaml file for details.
+- [pre-commit] is used for linting and reformatting, see the
+  [.pre-commit-config.yaml] file
 
-[python]: https://www.python.org/about/gettingstarted/
-[howto]: https://github.com/guendto/jomiel/blob/master/docs/HOWTO.md#howto-jomiel
-[jomiel]: https://github.com/guendto/jomiel/
-[aplv2]: https://www.tldrlegal.com/l/apache2
-[ssh]: https://en.wikipedia.org/wiki/Ssh
+[.pre-commit-config.yaml]: https://github.com/guendto/jomiel-yomiel/blob/master/.pre-commit-config.yaml
 [pre-commit]: https://pre-commit.com/
-[curve]: http://curvezmq.org/
-[pypi]: https://pypi.org/
