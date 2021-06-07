@@ -30,12 +30,18 @@ To install from [PyPI]:
 pip install yomiel
 ```
 
-To run from the repository:
+Install from the repository, e.g. for development:
 
 ```shell
-git clone https://github.com/guendto/jomiel-yomiel.git
+git clone https://github.com/guendto/jomiel-yomiel
 cd jomiel-yomiel
-pip install -e .
+pip install -e .  # Install a project in editable mode
+```
+
+Or, if you'd rather not install in "editable mode":
+
+```shell
+pip install git+https://github.com/guendto/jomiel-yomiel
 ```
 
 Be sure to check out `jomiel` [HOWTO], also.
