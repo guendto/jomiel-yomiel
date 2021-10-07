@@ -10,5 +10,4 @@ prune build/
 recursive-include src/yomiel/data *.yaml
 recursive-include docs/ *.md *.svg
 
-include CHANGES.md
 include .mdl*
