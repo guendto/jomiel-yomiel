@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": "github:guendto/yomiel",
   "scripts": {
     "release": "standard-version -s --releaseCommitMessageFormat 'chore(release): yomiel version {{currentTag}} (tG)'"

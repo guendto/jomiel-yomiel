@@ -1,3 +1,14 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/guendto/yomiel/compare/v1.0.1...v1.1.0) (2021-10-07)
+
+
+### Features
+
+* notify if --logger-ident did not match the logger identities ([e872dc1](https://github.com/guendto/yomiel/commit/e872dc19f9554eec7cdc9fbbecf9df748393da8d))
+
 ## [v1.0.1] - 2021-06-07
 
 ### Changed
