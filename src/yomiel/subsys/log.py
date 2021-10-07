@@ -15,7 +15,10 @@ def init():
     from yomiel.cache import logger_paths, opts
     from jomiel_kore.log import log_init
 
-    (logger_file, idents) = log_init(logger_paths)
+    (logger_file, idents) = log_init(
+        logger_paths,
+        ident_must_exist=opts.logger_ident,
+    )
 
     from yomiel.log import lg
 
