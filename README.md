@@ -53,7 +53,7 @@ Be sure to check out `jomiel` [HOWTO], also.
 ## Usage
 
 ```text
-usage: yomiel [-h] [--version] [-v] [--config-file FILE] [-D] [-E]
+usage: yomiel [-h] [--version] [-v] [--config-file FILE] [-D] [-E] [-P]
               [--logger-config FILE] [-L] [--logger-idents-verbose] [-l IDENT]
               [-o [raw|json|yaml|terse]] [-r ADDR] [-t TIME] [-m]
               [--auth-mode [none|curve|ssh]]
@@ -71,24 +71,28 @@ optional arguments:
   --version             show program's version number and exit
   -v, --version-long    show version information about program's environment
                         and exit (default: False)
-  --config-file FILE    Read configuration from the specified file (default:
-                        None)
+  --config-file FILE    Read configuration from the specified file [env var:
+                        CONFIG_FILE] (default: None)
   -D, --print-config    Show the configuration values and exit (default:
                         False)
   -E, --report-config   Report keys, values and where they were set (default:
+                        False)
+  -P, --config-paths    Print default configuration file paths (default:
                         False)
   -o [raw|json|yaml|terse], --output-format [raw|json|yaml|terse]
                         Print messages in the specified data serialization
                         format (default: raw)
 
 logger:
-  --logger-config FILE  Logger configuration file to read (default: None)
+  --logger-config FILE  Logger configuration file to read [env var:
+                        LOGGER_CONFIG] (default: None)
   -L, --logger-idents   Print logger identities and exit (default: False)
   --logger-idents-verbose
                         Print logger identities in detail, use together with
                         --logger-idents (default: False)
   -l IDENT, --logger-ident IDENT
-                        Use the logger identity (default: default)
+                        Use the logger identity [env var: LOGGER_IDENT]
+                        (default: default)
 
 jomiel:
   -r ADDR, --router-endpoint ADDR
@@ -123,6 +127,9 @@ auth: ssh:
   --ssh-timeout TIME    Time (in seconds) after which no activity will result
                         in the tunnel closing (default: 60)
   --ssh-paramiko        Use paramiko instead of pexpect (default: False)
+
+ If an arg is specified in more than one place, then commandline values
+override environment variables which override defaults.
 ```
 
 ## License
