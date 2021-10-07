@@ -1,5 +1,4 @@
 src/yomiel/__init__.py
-src/yomiel/protobuf/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
